@@ -48,8 +48,7 @@
     display: inline-block;
 }
 .container ul li a{ 
-    max-width: auto;
-    justify-content: space-between;    
+    max-width: auto;    
     max-height: auto;
     color: #fff;
 }
@@ -61,6 +60,7 @@
     color: white;
     width: 50% !important;
     height: 50% !important;
+    max-block-size: none;
     margin-top: 8%;
     margin-left: 0;
     margin-right: 0;
