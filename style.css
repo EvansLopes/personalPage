@@ -37,8 +37,7 @@
     position: center;
 }
 .container{
-    margin: auto;
-    justify-content: space-between;
+    margin: none;
 }
 .container ul{
     list-style-type: none;
@@ -50,6 +49,7 @@
 }
 .container ul li a{ 
     max-width: auto;
+    justify-content: space-between;    
     max-height: auto;
     color: #fff;
 }
@@ -62,14 +62,15 @@
     width: 50% !important;
     height: 50% !important;
     margin-top: 8%;
-    margin-left: 7.5%;
-    font-size: 10vh;
-    background-size: 120%;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 30px;
+    background-size: 100%;
 }
 .footer{    
     font-family: Inconsolata, sans-serif;
     max-width: 300px;
-    max-height: fit-content;
+    max-height: unset;
     color: #4AF626;
     margin-top: 30px;
     margin-bottom: 10px;
