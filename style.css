@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    background: none;
+    box-sizing: border-box;
+    font-family: Inconsolata, sans-serif;
+    background: #000
+}
+.perfil{
+    font-family: Inconsolata, sans-serif;
+    color: #4AF626;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    position: center;
+    text-align: center;
+
+}
+.picture{    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 0;
+    border: 1px solid;
+    max-width: 67px;
+    max-height: max-content;
+    border-color: azure;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.picture img{
+    max-width: 100px;
+    max-height: 100px;
+    position: center;
+}
+.container{
+    margin: auto;
+    max-width: 450px;
+    justify-content: space-between;
+}
+.container ul{
+    list-style-type: none;
+}
+.container ul li{    
+    max-width: 30px;
+    max-height: 30px;
+    margin-top: 7px;
+    padding-bottom: 3px;    
+    display: inline-block;
+}
+.container ul li a{ 
+    max-width: 30px;
+    max-height: 30px;
+    color: #fff;
+    font-size-adjust: initial;
+}
+
+.footer{    
+    font-family: Inconsolata, sans-serif;
+    color: #4AF626;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    position: center;
+    text-align: center;    
+}
